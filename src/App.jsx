@@ -20,7 +20,7 @@ const handleSelectButton=(course)=>{
     return Swal.fire({
       icon: 'error',
       title: 'Oops...',
-      text: `${course.course_name} Already Exist`
+      html: `<p><strong>${course.course_name}</strong> Already Exists</p>`
     })
   }else{
       selectedCourse.forEach(item=>{

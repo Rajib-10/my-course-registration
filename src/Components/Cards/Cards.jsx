@@ -14,7 +14,6 @@ const Cards = ({handleSelectButton}) => {
     },[])
     return (
         <div className="w-[70%] ml-10">
-            <h1>this is cards section :{courses.length}</h1>
             <div className="grid grid-cols-3 gap-5">
             {
                 courses.map(course=> <Card key={course.id} course={course} handleSelectButton={handleSelectButton} />)
