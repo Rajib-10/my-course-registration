@@ -2,10 +2,10 @@
     {
       "id": 1,
       "img": "https://i.ibb.co/Fmf4Y0Q/Rectangle-2-2.png",
-      "course_name": "Introduction to C Programming",
+      "course_name": "Advanced C Programming",
       "credit": 3,
       "price": 199,
-      "detail": "A comprehensive introduction to the C programming language."
+      "detail": "A comprehensive introduction to the C programming language. This course covers essential concepts, including variables, loops, and functions. Gain practical coding experience through hands-on exercises."
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "course_name": "Introduction to Algorithms",
       "credit": 4,
       "price": 249,
-      "detail": "Learn about fundamental data structures and algorithms."
+      "detail": "Dive into the world of algorithms and data structures. Explore sorting, searching, and graph algorithms. Solve real-world problems using algorithmic techniques, and gain the problem-solving skills essential for success."
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "course_name": "Introduction to C++ for DSA",
       "credit": 3,
       "price": 179,
-      "detail": "Get started with C++ for Data Structures and Algorithms."
+      "detail": "Get started with C++ programming with a focus on Data Structures and Algorithms (DSA). Learn about linked lists, trees, and algorithm design. Gain the skills to tackle complex programming challenges."
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "course_name": "Basic Data Structures",
       "credit": 4,
       "price": 299,
-      "detail": "Explore the fundamental data structures used in computer science."
+      "detail": "Explore fundamental data structures used in computer science. Study arrays, stacks, queues, and linked lists. Understand the applications of these data structures in solving real-world problems."
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "course_name": "Introduction to OOP Python",
       "credit": 3,
       "price": 199,
-      "detail": "An introduction to Object-Oriented Programming using Python."
+      "detail": "An introduction to Object-Oriented Programming using Python. Learn about classes, inheritance, and polymorphism. Build Python applications that follow OOP principles and gain the skills to design and develop software solutions."
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "course_name": "Software Engineering",
       "credit": 3,
       "price": 219,
-      "detail": "Understand the principles of software engineering."
+      "detail": "Understand the principles of software engineering and development. Explore software development methodologies, requirements analysis, and design. Develop the skills to build robust software systems."
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "course_name": "AWS, Cloud Computing",
       "credit": 4,
       "price": 249,
-      "detail": "Learn about Amazon Web Services (AWS) and cloud computing."
+      "detail": "Learn about Amazon Web Services (AWS) and cloud computing. Explore cloud concepts, services, and deployment strategies. Prepare for a career in cloud-based technologies and gain hands-on experience with AWS."
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "course_name": "Database (MySQL)",
       "credit": 3,
       "price": 229,
-      "detail": "Master the MySQL database management system."
+      "detail": "Master the MySQL database management system. Design and optimize relational databases, perform data manipulation, fine-tune queries, and gain the expertise needed to excel in today's data-driven world."
     },
     {
       "id": 9,
@@ -69,6 +69,6 @@
       "course_name": "Problem-Solving Part",
       "credit": 4,
       "price": 269,
-      "detail": "Enhance your problem-solving skills and explore core concepts."
+      "detail": "Enhance your problem-solving skills and explore core concepts in computer science. Solve complex programming challenges, strengthen algorithmic thinking, and become a more effective coder."
     }
 ]
