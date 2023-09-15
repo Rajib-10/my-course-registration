@@ -6,7 +6,7 @@ import Carts from "./Components/Carts/Carts"
 function App() {
 const [selectedCourse,setSelectedCourse] = useState([])
 const [countCredit,setCountCredit] = useState(0)
-const [remaining,setRemaining] = useState(0)
+const [remaining,setRemaining] = useState(20)
 const [countPrice,setCountPrice] = useState(0)
 
 

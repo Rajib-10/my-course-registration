@@ -6,7 +6,7 @@ const Carts = ({selectedCourse,countCredit,remaining,countPrice}) => {
         <div className="w-[20%] mr-14">
         <div className="card card-compact  bg-base-100 shadow-xl">
             <div className="card-body">
-                <h1 className="text-lg text-[#2F80ED] font-bold">Credit Hour Remaining {remaining}hr</h1>
+                <h1 className="text-lg text-[#2F80ED] font-bold">Credit Hour Remaining {remaining} hr</h1>
                 <hr />
                 <h2 className="text-[#1C1B1B] text-xl font-bold">Course Name</h2>
                 <hr />
