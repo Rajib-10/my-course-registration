@@ -13,8 +13,8 @@ const Cards = ({handleSelectButton}) => {
         .then(data=>setCourses(data))
     },[])
     return (
-        <div className="w-[74%] ">
-            <div className="grid grid-cols-3 gap-6 ml-16">
+        <div className="w-[75%] ">
+            <div className="grid grid-cols-3 gap-6 ml-12 mr-2">
             {
                 courses.map(course=> <Card key={course.id} course={course} handleSelectButton={handleSelectButton} />)
             }

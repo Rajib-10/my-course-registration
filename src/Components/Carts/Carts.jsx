@@ -3,8 +3,8 @@
 
 const Carts = ({selectedCourse,countCredit,remaining,countPrice}) => {
     return (
-        <div className="w-[20%] mr-14">
-        <div className="card card-compact  bg-base-100 shadow-xl">
+        <div className="w-[20%] mr-12">
+        <div className="card card-compact  bg-base-100 shadow-xl w-[277px]">
             <div className="card-body">
                 <h1 className="text-lg text-[#2F80ED] font-bold">Credit Hour Remaining {remaining} hr</h1>
                 <hr />
