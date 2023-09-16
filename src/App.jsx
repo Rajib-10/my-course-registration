@@ -1,7 +1,9 @@
 import { useState } from "react"
-import Swal from "sweetalert2"
 import Cards from "./Components/Cards/Cards"
 import Carts from "./Components/Carts/Carts"
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 const [selectedCourse,setSelectedCourse] = useState([])
@@ -17,23 +19,19 @@ const handleSelectButton=(course)=>{
  
   const isExist = selectedCourse.find(item=>item.course_name===course.course_name)
   if(isExist){
-    return Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      html: `<p><strong>${course.course_name}</strong> Already Exists</p>`
-    })
+    return toast.warn(<h1><span className="font-semibold">{course.course_name}</span> Already Exist</h1>)
   }else{
       selectedCourse.forEach(item=>{
         totalCredit+=item.credit
         totalPrice+=item.price
       })
       let remainingCredit = 20 - totalCredit
-      if(totalCredit>20 || remainingCredit <0){
-        return Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Check Credit please!!',
-        })
+      if(totalCredit>20 ){
+        return toast.warn("You can not exceed more than 20 credits")
+
+      }else if(remainingCredit <0){
+        return toast.warn("Remaining Credit can not be Negative!")
+
       }else{
         setCountCredit(totalCredit)
         setRemaining(remainingCredit)
@@ -57,7 +55,7 @@ const handleSelectButton=(course)=>{
       </div>
 
       
-       
+      <ToastContainer /> 
     </>
   )
 }

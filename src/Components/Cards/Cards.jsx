@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
 import { useEffect } from "react";
 import { useState } from "react";
 import Card from "../Card/Card";
@@ -23,4 +23,7 @@ const Cards = ({handleSelectButton}) => {
     );
 };
 
+Cards.propTypes = {
+    handleSelectButton: PropTypes.func.isRequired
+  };
 export default Cards;

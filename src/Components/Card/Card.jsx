@@ -1,8 +1,6 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-mixed-spaces-and-tabs */
 import { FiDollarSign } from "react-icons/fi";
 import { BsBook } from "react-icons/bs";
-
+import PropTypes from 'prop-types';
 const Card = ({ course, handleSelectButton }) => {
   const { img, course_name, credit, price, detail } = course;
   return (
@@ -34,6 +32,12 @@ const Card = ({ course, handleSelectButton }) => {
       </div>
     </div>
   );
+};
+
+
+Card.propTypes = {
+  course: PropTypes.object.isRequired,
+  handleSelectButton: PropTypes.func.isRequired
 };
 
 export default Card;

@@ -1,10 +1,10 @@
-/* eslint-disable react/prop-types */
 
+import PropTypes from 'prop-types';
 
 const Carts = ({selectedCourse,countCredit,remaining,countPrice}) => {
     return (
         <div className="w-[20%] mr-12">
-        <div className="card card-compact  bg-base-100 shadow-xl w-[277px]">
+        <div className="card card-compact  bg-base-100 shadow-xl w-[279px]">
             <div className="card-body">
                 <h1 className="text-lg text-[#2F80ED] font-bold">Credit Hour Remaining {remaining} hr</h1>
                 <hr />
@@ -22,5 +22,13 @@ const Carts = ({selectedCourse,countCredit,remaining,countPrice}) => {
         </div>
     );
 };
+
+
+Carts.propTypes = {
+    selectedCourse: PropTypes.array.isRequired,
+    countCredit: PropTypes.number.isRequired,
+    remaining: PropTypes.number.isRequired,
+    countPrice: PropTypes.number.isRequired
+  };
 
 export default Carts;
