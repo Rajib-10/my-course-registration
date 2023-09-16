@@ -9,7 +9,6 @@ const Carts = ({selectedCourse,countCredit,remaining,countPrice}) => {
                 <h1 className="text-lg text-[#2F80ED] font-bold">Credit Hour Remaining {remaining} hr</h1>
                 <hr />
                 <h2 className="text-[#1C1B1B] text-xl font-bold">Course Name</h2>
-                <hr />
                 {
                     selectedCourse.map((courseName,idx)=> <h1 className="text-[16px] font-normal text-[#1C1B1B99]" key={idx}>{idx+1} {courseName.course_name}</h1>) 
                 }

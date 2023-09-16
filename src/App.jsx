@@ -46,8 +46,8 @@ const handleSelectButton=(course)=>{
 }
   return (
     <>
-      <div className="mb-24">
-        <h1 className="text-[32px] text-[#1C1B1B] text-center m-5 p-5 font-bold">Course Registration</h1>
+      <div className="pb-24 bg-gray-100">
+        <h1 className="text-[32px] text-[#1C1B1B] text-center  p-5 font-bold">Course Registration</h1>
         <div className="flex justify-between">
         <Cards handleSelectButton={handleSelectButton} />
         <Carts selectedCourse={selectedCourse} countPrice={countPrice} countCredit={countCredit} remaining={remaining}  />
